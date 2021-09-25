@@ -32,7 +32,9 @@ fun main() {
     val g = 123 //Int —  Decimal
     val h = 0xFFAAFC // Int —  Hexadecimal
     val i = 0b01010101 // Int — Binário
-    //Octais não são suportados
+    // Octais não são suportados
     val j = 100.1 // Double por padrão
     val k = 132.2e10 // Double — Notação convencional
+    // Kotlin também permite que você utilize _ para separar números o que facilita a leitura
+    val l = 100_000_000 // Um milhão
 }
