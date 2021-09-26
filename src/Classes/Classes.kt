@@ -59,7 +59,11 @@ class Classes(
 }
 
 fun main() {
-    val fon: Classes = Classes("frocs", 420, 69.69f)
+    val fon: Classes = Classes(
+        "frocs",
+        420,
+        maisUmParametro = 1f
+    )
     println(fon)
     println(fon.parametro)
     println(fon.outroParametro)
