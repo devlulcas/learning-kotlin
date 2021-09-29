@@ -40,6 +40,16 @@ fun main() {
         println(n)
     }
 
+    println("--FOR IN LISTA INT AO CONTRARIO--")
+    for (x in 10 downTo 1) {
+        println(x)
+    }
+
+    println("--FOR IN LISTA INT PULANDO 2--")
+    for (y in 1..10 step 2) {
+        println(y)
+    }
+
     println("--FOR EACH--")
     hortifruti.forEach {
         fruta: String ->
