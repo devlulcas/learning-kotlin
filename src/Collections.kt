@@ -87,4 +87,12 @@ fun main() {
     datasDeAniversario["03/03/1982"] = "Pedro"
 
     println(datasDeAniversario)
+
+
+    // Usando to para criar elementos num map nós criamos um Pair() temporário, em sistemas de performance restrita use:
+    val mapaPerformance = mutableMapOf<String, Int>()
+    mapaPerformance.apply {
+        this["Zero"] = 0
+        this["Um"] = 1
+    }
 }
