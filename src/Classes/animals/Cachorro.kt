@@ -4,9 +4,11 @@ class Cachorro(
     val raca: String
 ) : Animal(
     especie = "Canis lupus familiaris",
-    vulgo = listOf("Cachorro", "Cão")) {
+    vulgo = listOf("Cachorro", "Cão")
+) {
 
-    fun latir() {
+    // Sobrescreve a função abstrata da classe base
+    override fun som() {
         println("Au Au")
     }
 }
